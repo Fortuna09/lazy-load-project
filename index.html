@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Lazy Load Project</h1>
+        <p>This project demonstrates lazy loading of images using JavaScript.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="image-gallery">
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1671025376324-9041886bd84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVyc3RhcHBlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1671025376324-9041886bd84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVyc3RhcHBlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1698753047029-05b3011609b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1698753047029-05b3011609b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            <h3>More Images</h3>
+            <p></p>
+            <div class="image-gallery2">
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1700770956485-87150c75ad65?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1700770956485-87150c75ad65?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1610019080778-471083eb5965?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGYxfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1610019080778-471083eb5965?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGYxfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1506610654-064fbba4780c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1506610654-064fbba4780c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGNhcnJvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+                <div class="placeholder-wrapper">
+                    <img class="is-loading" src="https://images.unsplash.com/photo-1671025452096-6cec9e2899dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHZlcnN0YXBwZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=10" data-src="https://images.unsplash.com/photo-1671025452096-6cec9e2899dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHZlcnN0YXBwZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1000">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lazy Load Project - Rafael Fortuna</p>
+    </footer>
+</body>
+</html>
