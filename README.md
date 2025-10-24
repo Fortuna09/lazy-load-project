@@ -1,6 +1,6 @@
 # Lazyload - project
 
-![Preview of the demo](/PREVIEW.gif)
+![Preview of the demo](./PREVIEW.gif)
 
 This small project demonstrates a simple JavaScript lazy-loading technique for images.
 
