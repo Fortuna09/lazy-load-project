@@ -1,10 +1,10 @@
 {
     "titulo": "Lazy Load - Projeto de Otimização de Imagens",
-    "objetivo": "Implementar a técnica de Lazy Loading para otimizar o carregamento de imagens em uma aplicação web.",
-    "desafio": "O principal desafio foi garantir que as imagens fossem carregadas de forma assíncrona, melhorando a performance da aplicação sem comprometer a experiência do usuário.",
-    "tecnologia": "React, JavaScript, CSS",
+    "objetivo": "Acelerar o desempenho de aplicações web utilizando técnicas avançadas de Lazy Loading, reduzindo o tempo de carregamento inicial e consumo de dados da rede.",
+    "desafio": "Otimizar o Core Web Vitals (desempenho UX) garantindo o carregamento assíncrono fluido de recursos visuais sem causar 'layout shifts' bruscos ou prejudicar a retenção de usuários.",
+    "tecnologia": "HTML5, CSS3, JavaScript",
     "imagem": "/image.png",
     "gif": "/PREVIEW.gif",
     "linkRepo": "https://github.com/Fortuna09/lazy-load-project",
-    "tags": ["React", "JavaScript", "Front-end"]
+    "tags": ["JavaScript", "Performance", "Front-end"]
   }
